@@ -1,0 +1,187 @@
+p {
+  font-family: 'Montserrat';
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+
+/* Top Container  */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  /* Visit Main File For Font Size */
+}
+.nav-item {
+  font-family: 'Montserrat';
+  padding: 0 10px;
+}
+#top {
+  background-color: #ff4c68;
+  padding: 4% 10%;
+}
+.heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+
+}
+.row {
+  padding-top: 50px;
+}
+
+/* Title Section */
+
+.heading-buttons {
+  margin: 20px 15px 40px 0;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  margin-left: 80px;
+  padding-top: 25px;
+  position: absolute;
+}
+
+
+/* Features */
+#features {
+ padding: 7% 10%;
+ position: relative;
+ background-color: #fff;
+}
+.feature-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+.feature-box {
+  text-align: center;
+}
+.feature-icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Reviews */
+
+#reviews {
+  background-color: #EF8172;
+}
+
+#carousel-main {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.carousel-header {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.carousel-image-1 {
+  border-radius: 100%;
+  width: 10%;
+  margin: 30px 10px;
+}
+.sponsors {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0;
+}
+.sponsors-logo {
+  width: 15%;
+  margin: 20px 35px 20px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-header {
+  margin: 50px;
+}
+.pricing-header-text {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card-header-text {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.card-pricing-text {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+
+}
+.cta-btn {
+  margin: 20px 10px;
+  font-size: 1.25rem;
+  font-family: 'Montserrat';
+
+}
+
+
+/* Footer Section  */
+ #footer {
+   padding: 7% 15%;
+   text-align: center;
+ }
+.copyright {
+  text-align: center;
+}
+
+@media (max-width: 993px) {
+.heading-intro {
+  text-align: center;
+}
+.heading {
+  font-size: 2rem;
+}
+#top {
+  padding: 1% 2%;
+}
+.intro-image {
+  text-align: center;
+  padding-top: 5px;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 30%;
+    margin: auto;
+  }
+
+  }
+}
